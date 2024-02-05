@@ -19,7 +19,7 @@ interface IResponse {
 class CreateSessionService {
   public async execute({ email, password }: IRequest): Promise<IResponse> {
     const usersRepository = getCustomRepository(UsersRepository);
-    const user = await usersRepository.findByeEmail(email);
+    const user = await usersRepository.findByEmail(email);
     if (!user) {
       throw new AppError('Incorrect email/password combination', 401);
     }
