@@ -9,7 +9,7 @@ import fs from 'fs';
 
 interface IRequest {
   user_id: string;
-  avatarFilename: string | undefined;
+  avatarFilename: string;
 }
 
 class UpdateUserAvatarService {
