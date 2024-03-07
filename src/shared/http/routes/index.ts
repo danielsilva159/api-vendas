@@ -3,8 +3,8 @@ import productsRouter from '../../../modules/products/routes/products.routes';
 import usersRouter from '../../../modules/users/routes/users.routes';
 import sessionsRouter from '../../../modules/users/routes/sessions.routes';
 import passwordRouter from '../../../modules/users/routes/password.routes';
-import profileRouter from 'src/modules/users/routes/profile.routes';
-import customerRouter from 'src/modules/customers/routes/customers.routes';
+import profileRouter from '../../../modules/users/routes/profile.routes';
+import customerRouter from '../../../modules/customers/routes/customers.routes';
 
 const routes = Router();
 
